@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { json, Link, useNavigate } from "react-router-dom";
 
 function CheckoutSection() {
-  let [formdata,setformdata]= useState({country:"India",firstname:"manish",lastname:"solanki",companyName:"XYZ",address:"jaipur",state:"Rajasthan",Zip:"302028",email:"manish@gmail.com",phoneNo:"9878459898",Notes:"helo every one"})
+  let [formdata,setformdata]= useState({country:"India",firstname:"SAHIL",lastname:"JYANI",companyName:"XYZ",address:"jaipur",state:"Rajasthan",Zip:"302028",email:"sahiljyani81@gmail.com",phoneNo:"9992633675",Notes:"helo every one"})
   let nevigate=useNavigate()
 
   let[cartdata,setcartdata]=useState(JSON.parse(localStorage.getItem('cartData'))||[])
